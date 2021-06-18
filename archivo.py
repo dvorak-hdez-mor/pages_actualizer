@@ -5,7 +5,7 @@ import schedule
 # Obtenido de https://platzi.com/blog/bot-python/
 
 def botSendText(message):
-    bot_Token = "1581914396:AAFNlQ2z5NFelnufBXXFSnE2aOQo3zL19aI"
+    bot_Token = "" #Token
     bot_Id = "911719849"
     sendText = "https://api.telegram.org/bot" + bot_Token + "/sendMessage?chat_id=" + bot_Id + "&parse_mode=Markdown&text=" + message
 
