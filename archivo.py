@@ -2,6 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import schedule
 
+# Obtenido de https://platzi.com/blog/bot-python/
+
 def botSendText(message):
     bot_Token = "1581914396:AAFNlQ2z5NFelnufBXXFSnE2aOQo3zL19aI"
     bot_Id = "911719849"
