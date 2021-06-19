@@ -3,6 +3,7 @@ import requests
 import schedule
 
 # Obtenido de https://platzi.com/blog/bot-python/
+# Test en pc
 
 def botSendText(message):
     bot_Token = "" #Token
